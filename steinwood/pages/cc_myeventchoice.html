@@ -1,0 +1,68 @@
+
+  <!-- pagebox starts here. -->
+  <div class="pagebox">
+
+    <div id = "threechoiceboxcontainer">
+      <div class = "threechoicebox">
+        <h1><a onclick="
+          if (characterselect == 'speans') {
+            loadFileInto('pages/cde_myeventoutcome/speansgood.html', 'pagebox');
+            myevent1charaction = 'speans';
+            myevent1outcome = 'good';
+          }
+          
+          else {
+            loadFileInto('pages/cde_myeventoutcome/speansbad.html', 'pagebox');
+            myevent1charaction = 'speans'
+            myevent1outcome = 'bad';
+          }; 
+          
+          console.log('myevent1outcome: ' + myevent1outcome);
+          console.log('myevent1charaction: ' + myevent1charaction);">
+          Quickdraw your gun and fire a warning shot.</a></h1>
+      </div>
+      <div class = "threechoicebox">
+        <h1><a onclick="if (characterselect == 'slick') {
+            loadFileInto('pages/cde_myeventoutcome/slickgood.html', 'pagebox');
+            myevent1charaction = 'slick';
+            myevent1outcome = 'good';
+          }
+          
+          else {
+            loadFileInto('pages/cde_myeventoutcome/slickbad.html', 'pagebox');
+            myevent1outcome = 'bad';
+            myevent1charaction = 'slick';
+          }; 
+          
+          console.log('myevent1outcome: ' + myevent1outcome);
+          console.log('myevent1charaction: ' + myevent1charaction);">
+          Lunge in front of the hand and offer the creatures a deal.</a></h1>
+      </div>
+      <div class = "threechoicebox">
+        <h1><a onclick="if (characterselect == 'suggins') {
+            loadFileInto('pages/cde_myeventoutcome/sugginsgood.html', 'pagebox');
+            myevent1outcome = 'good';
+            myevent1charaction = 'suggins';
+          }
+          
+          else {
+            loadFileInto('pages/cde_myeventoutcome/sugginsbad.html', 'pagebox');
+            myevent1outcome = 'bad';
+            myevent1charaction = 'suggins';
+          }; 
+          
+          console.log('myevent1outcome: ' + myevent1outcome);
+          console.log('myevent1charaction: ' + myevent1charaction);">
+          Wallop the claw.</a></h1>
+      </div>
+    </div>
+    
+    
+    <div class="narrativetextbox" id = "three">
+      <p>What do you do?</p>
+    </div>
+    
+
+    <!-- pagebox ends here. -->
+  </div>
+

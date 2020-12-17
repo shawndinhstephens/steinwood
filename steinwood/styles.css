@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: lightgray;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: calc(1.5vh + 1.5vw);
+}
+
+h1:hover {
+  cursor: pointer;
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  font-size: calc(0.6vh + 0.6vw);
+}
+
+#nextbox {
+  width: 10vw;
+  height: 7vh;
+  position: relative;
+  align: center;
+  left: 47vw;
+  top: 60vh;
+  background-image: url("images/textbox.png");
+  background-size: auto;
+  background-repeat: round;
+}
+
+#titlebox {
+  width: 50vw;
+  height: 10vh;
+  top: 3vh;
+  left: 25vw;
+  align: center;
+  position: relative;
+  background-color: black;
+}
+
+.pagebox {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+.narrativetextbox {
+  width: 70vw;
+  height: 15vh;
+  position: relative;
+  align: center;
+  left: 10vw;
+  top: 60vh;
+  align-content: left;
+  text-align: center;
+  background-image: url("images/textbox.png");
+  background-size: auto;
+  background-repeat: round;
+  padding-top: 7vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.narrativetextbox#three {
+  top: 10vh;
+  left: 7vw;
+}
+
+.twochoiceboxcontainer {
+  position: relative;
+  height: 67vh;
+  width: 100vw;
+  top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.twochoicebox {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 42%;
+  display: inline-block;
+  margin: 0px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#threechoiceboxcontainer {
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.threechoicebox {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 27vw;
+  display: inline-block;
+  margin: 0vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+body {
+  background-color: black;
+}

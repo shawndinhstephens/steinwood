@@ -1,0 +1,68 @@
+
+  <!-- pagebox starts here. -->
+  <div class="pagebox">
+
+    <div id = "threechoiceboxcontainer">
+      <div class = "threechoicebox">
+        <h1><a onclick="
+          if (characterselect == 'speans') {
+            loadFileInto('pages/bde_mmeventoutcome/speansgood.html', 'pagebox');
+            mmevent1charaction = 'speans';
+            mmevent1outcome = 'good';
+          }
+          
+          else {
+            loadFileInto('pages/bde_mmeventoutcome/speansbad.html', 'pagebox');
+            mmevent1charaction = 'speans'
+            mmevent1outcome = 'bad';
+          }; 
+          
+          console.log('mmevent1outcome: ' + mmevent1outcome);
+          console.log('mmevent1charaction: ' + mmevent1charaction);">
+          Draw your gun and fan the hammer, taking out as many bandits as you can.</a></h1>
+      </div>
+      <div class = "threechoicebox">
+        <h1><a onclick="if (characterselect == 'slick') {
+            loadFileInto('pages/bde_mmeventoutcome/slickgood.html', 'pagebox');
+            mmevent1charaction = 'slick';
+            mmevent1outcome = 'good';
+          }
+          
+          else {
+            loadFileInto('pages/bde_mmeventoutcome/slickbad.html', 'pagebox');
+            mmevent1outcome = 'bad';
+            mmevent1charaction = 'slick';
+          }; 
+          
+          console.log('mmevent1outcome: ' + mmevent1outcome);
+          console.log('mmevent1charaction: ' + mmevent1charaction);">
+          Strike a deal with the bandits, so that they might let you pass unharmed.</a></h1>
+      </div>
+      <div class = "threechoicebox">
+        <h1><a onclick="if (characterselect == 'suggins') {
+            loadFileInto('pages/bde_mmeventoutcome/sugginsgood.html', 'pagebox');
+            mmevent1outcome = 'good';
+            mmevent1charaction = 'suggins';
+          }
+          
+          else {
+            loadFileInto('pages/bde_mmeventoutcome/sugginsbad.html', 'pagebox');
+            mmevent1outcome = 'bad';
+            mmevent1charaction = 'suggins';
+          }; 
+          
+          console.log('mmevent1outcome: ' + mmevent1outcome);
+          console.log('mmevent1charaction: ' + mmevent1charaction);">
+          Bullrush the bandits, fists cocked and ready for blood.</a></h1>
+      </div>
+    </div>
+    
+    
+    <div class="narrativetextbox" id = "three">
+      <p>What do you do?</p>
+    </div>
+    
+
+    <!-- pagebox ends here. -->
+  </div>
+
